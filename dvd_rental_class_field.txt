@@ -1,0 +1,33 @@
+Category 
+--------
+private Long category_id;
+private String name;
+private Date last_update;
+
+language
+---------
+private Long language_id;
+private String name;
+private Date last_update;
+
+film
+-----
+private Long film_id;
+private String title;
+private String description;
+private Integer release_year;
+private Long language_id;
+private Long rental_duration;
+private Double rental_rate;
+private Long length;
+private BigDecimal replacement_cost;
+private String rating;
+private Date last_update;
+private String special_features;
+private String fulltext;
+
+film_category
+-------------
+private Long film_id;
+private Long category_id;
+private Date last_update;
